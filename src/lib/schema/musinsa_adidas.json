@@ -1,0 +1,90 @@
+{
+    "version": 1,
+    "root": {
+        "type": "container",
+        "padding": 20,
+        "children": [
+            {
+                "type": "container",
+                "children": [
+                    {
+                        "type": "text",
+                        "value": "쇼케이스 | 무신사 에디션",
+                        "size": "sm"
+                    }
+                ]
+            },
+            {
+                "type": "container",
+                "children": [
+                    {
+                        "type": "image",
+                        "src": "https://image.msscdn.net/thumbnails/common/brand/adidas_logo.png",
+                        "alt": "Adidas Logo"
+                    },
+                    {
+                        "type": "text",
+                        "value": "아디다스",
+                        "size": "md"
+                    },
+                    {
+                        "type": "text",
+                        "value": "♡ 78.6만",
+                        "size": "sm"
+                    }
+                ]
+            },
+            {
+                "type": "image",
+                "src": "https://image.msscdn.net/thumbnails/cms/v2/content/file_1767773347364_37617600_y6dq3r.jpg?w=1080",
+                "alt": "MUSINSA EDITION - Adidas"
+            },
+            {
+                "type": "container",
+                "children": [
+                    {
+                        "type": "container",
+                        "children": [
+                            {
+                                "type": "text",
+                                "value": "♡ 82",
+                                "size": "sm"
+                            },
+                            {
+                                "type": "text",
+                                "value": "💬 165",
+                                "size": "sm"
+                            },
+                            {
+                                "type": "text",
+                                "value": "🎁 이벤트",
+                                "size": "sm"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "container",
+                        "children": [
+                            {
+                                "type": "button",
+                                "label": "브랜드숍",
+                                "action": {
+                                    "type": "alert",
+                                    "message": "Hi!"
+                                }
+                            },
+                            {
+                                "type": "button",
+                                "label": "관련 상품",
+                                "action": {
+                                    "type": "alert",
+                                    "message": "Hi!"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
